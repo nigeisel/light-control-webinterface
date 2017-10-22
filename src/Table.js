@@ -13,7 +13,7 @@ import toggleLights from './restAPI';
 function toggled(event: object, isInputChecked: bool, which) {
     var state = "off"
     if (isInputChecked) {
-        var state = "on"
+        state = "on"
     }
     toggleLights(which, state);
 }
