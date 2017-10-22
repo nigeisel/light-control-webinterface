@@ -1,4 +1,4 @@
-FROM resin/raspberry-pi-alpine-node
+FROM resin/raspberry-pi-node:8.0.0
 ENV INITSYSTEM on
 
 RUN mkdir -p webinterface
