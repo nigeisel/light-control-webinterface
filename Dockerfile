@@ -1,5 +1,4 @@
 FROM resin/raspberry-pi-node:8.0.0
-ENV INITSYSTEM on
 
 RUN mkdir -p webinterface
 COPY package.json /webinterface
