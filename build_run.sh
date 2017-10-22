@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 echo "--- building docker image... ---"
 sudo docker build --tag nilsg/webinterface .
 
