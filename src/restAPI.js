@@ -1,7 +1,7 @@
 //const HOST = "https://localhost"
-const HOST = document.location.hostname;
+const HOST = document.location.host;
 const PORT = document.location.port;
-const API = HOST + ":" + PORT + "/api/";
+const API = HOST + "/api/";
 
 // only dev:
 const SECRET = "2bb80d537b1da3e38bd30361aa855686bde0eacd7162fef6a25fe97bf527a25b";
