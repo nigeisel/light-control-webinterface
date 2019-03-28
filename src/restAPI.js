@@ -1,6 +1,6 @@
 //const HOST = "https://localhost"
-const HOST = "https://192.168.2.103";
-const PORT = "8443";
+const HOST = document.location.hostname;
+const PORT = document.location.port;
 const API = HOST + ":" + PORT + "/api/";
 
 // only dev:
